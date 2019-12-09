@@ -1,0 +1,61 @@
+/* Interview */
+
+
+body {
+	background-color: mistyrose;
+	font-family: 'Roboto', sans-serif;
+	padding: 1em;
+	margin: 0;
+	
+}
+
+header {
+	padding: 1em;
+	margin: 0;
+}
+
+h1 {
+	font-weight: 300;
+	font-size: 70px;
+	text-align: justify;
+
+}
+
+details {
+	font-weight: bold;
+	font-size: 40px;
+	color: rgb(156, 151, 10);
+	padding: 4em;
+	margin-left: 3em;
+	box-sizing: border-box;
+  		width: 19em;
+  		height: auto;
+}
+
+p {
+	font-size: 20px;
+	padding: 1em;
+	margin-left: 15em;
+	
+	}
+
+
+
+.cursor {
+	cursor: pointer;
+
+}
+
+
+summary {
+	display: flex;
+	transition: red 0.25s;
+	outline: none;
+}
+
+summary:hover, details[open] div{
+	color: red;
+}
+
+
+
